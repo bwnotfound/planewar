@@ -8,7 +8,7 @@ import play.api.mvc._
 class Application @Inject()(cc: ControllerComponents) extends AbstractController(cc) {
 
   def index = Action {
-    Ok(views.html.homePage())
+    Ok(views.html.planewarPage())
   }
 
 }

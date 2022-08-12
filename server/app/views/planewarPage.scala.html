@@ -1,0 +1,16 @@
+@()
+
+@main("Plane war"){
+    <div id="gameFrame">
+
+        <span id="info" style="display: block;"><p style="display: inline-block;">Score:</p> <p id="score" style="display: inline-block;">555</p></span>
+        <canvas id="mainCanvas" height="200" width="200"></canvas>
+        <canvas id="planeCanvas" height="200" width="200"></canvas>
+    </div>
+
+
+
+    <input id="imagesRoute" hidden value="/versionedAssets/">
+
+    <script src="@routes.Assets.versioned("javascripts/game.js")"></script>
+}

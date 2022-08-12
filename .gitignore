@@ -19,7 +19,9 @@ dist
 .bsp
 .metals
 metals.*
-
+.vscode
+.scalafmt.conf
+Procfile
 
 # hidden cross project folders
 shared/.js
